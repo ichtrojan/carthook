@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 /**
  * @method static create(array $post)
+ * @method findOrFail($post)
  */
 class Post extends Model
 {
@@ -17,4 +18,12 @@ class Post extends Model
     protected $fillable = [
         'id', 'user_id', 'title', 'body'
     ];
+
+    /**
+     * Get all of the post's comments.
+     */
+    public function comments()
+    {
+        return $this->hasMany('App\Models\Comment');
+    }
 }

@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 /**
  * @method static create(array $user)
+ * @method findOrFail($id)
  */
 class User extends Model
 {
@@ -17,4 +18,12 @@ class User extends Model
     protected $fillable = [
         'name', 'email', 'username', 'phone', 'website', 'id'
     ];
+
+    /**
+     * Get the posts for a user.
+     */
+    public function posts()
+    {
+        return $this->hasMany('App\Models\Post');
+    }
 }
