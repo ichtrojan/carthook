@@ -14,6 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+Route::group(['middleware' => 'api'], function () {
+    Route::group(['prefix' => 'users'], function () {
+        Route::get('/', 'UserController@all');
+        Route::get('{user}', 'UserController@get');
+        Route::get('{user}/posts', 'UserController@posts');
+        Route::get('{user}/posts/{post}/comments', 'PostController@comments');
+    });
 });
