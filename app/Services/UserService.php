@@ -27,9 +27,11 @@ class UserService
      */
     public function all()
     {
+        if ($this->user->count() == 0) sleep(2);
+
         return response()->json([
-           'status' => true,
-           'users' => $this->user->get()
+            'status' => true,
+            'users' => $this->user->get()
         ]);
     }
 
@@ -41,6 +43,8 @@ class UserService
      */
     public function get($user)
     {
+        if ($this->user->count() == 0) sleep(2);
+
         return response()->json([
             'status' => true,
             'user' => $this->user->findOrFail($user)
@@ -55,6 +59,8 @@ class UserService
      */
     public function posts($user)
     {
+        if ($this->user->count() == 0) sleep(2);
+
         $user = $this->user->findOrFail($user);
 
         return response()->json([

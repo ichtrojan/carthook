@@ -10,6 +10,7 @@ use Illuminate\Database\Eloquent\Model;
  * @method findOrFail($id)
  * @method get()
  * @method static find($id)
+ * @method count()
  */
 class User extends Model
 {

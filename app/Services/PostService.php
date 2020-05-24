@@ -36,6 +36,8 @@ class PostService
      */
     public function comments($user, $post)
     {
+        if ($this->post->count() == 0) sleep(2);
+
         $post = $this->post->findOrFail($post);
 
         $this->user->findOrFail($user);

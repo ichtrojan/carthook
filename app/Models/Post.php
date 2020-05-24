@@ -9,6 +9,7 @@ use Illuminate\Database\Eloquent\Model;
  * @method static create(array $post)
  * @method findOrFail($post)
  * @method static find($id)
+ * @method count()
  */
 class Post extends Model
 {
