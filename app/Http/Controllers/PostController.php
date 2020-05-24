@@ -10,7 +10,7 @@ class PostController extends Controller
     /**
      * @var PostService
      */
-    private $post;
+    private PostService $post;
 
     /**
      * PostController constructor.
@@ -21,11 +21,12 @@ class PostController extends Controller
     }
 
     /**
+     * @param $user
      * @param $post
      * @return JsonResponse
      */
-    public function comments($post)
+    public function comments($user, $post)
     {
-        return $this->post->comments($post);
+        return $this->post->comments($user, $post);
     }
 }

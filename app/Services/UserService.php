@@ -10,7 +10,7 @@ class UserService
     /**
      * @var User
      */
-    private $user;
+    private User $user;
 
     /**
      * UserService constructor.
