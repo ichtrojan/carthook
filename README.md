@@ -1,5 +1,7 @@
 # Carthook
 
+![hero](https://res.cloudinary.com/ichtrojan/image/upload/v1590285859/Screenshot_2020-05-24_at_03.02.35_qv7cgj.png)
+
 ## Introduction
 
 Solution to interview assignment
