@@ -2,21 +2,27 @@
 
 namespace App\Models;
 
+use GeneaLabs\LaravelModelCaching\Traits\Cachable;
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * @method static create(array $post)
  * @method findOrFail($post)
+ * @method static find($id)
  */
 class Post extends Model
 {
+    use Cachable;
+
+    protected int $cacheCooldownSeconds = 10;
+
     /**
      * The attributes that are mass assignable.
      *
      * @var array
      */
     protected $fillable = [
-        'id', 'user_id', 'title', 'body'
+        'id', 'userId', 'title', 'body'
     ];
 
     /**
@@ -24,6 +30,6 @@ class Post extends Model
      */
     public function comments()
     {
-        return $this->hasMany('App\Models\Comment');
+        return $this->hasMany('App\Models\Comment', 'postId');
     }
 }

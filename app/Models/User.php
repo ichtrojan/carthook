@@ -2,15 +2,21 @@
 
 namespace App\Models;
 
+use GeneaLabs\LaravelModelCaching\Traits\Cachable;
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * @method static create(array $user)
  * @method findOrFail($id)
  * @method get()
+ * @method static find($id)
  */
 class User extends Model
 {
+    use Cachable;
+
+    protected int $cacheCooldownSeconds = 10;
+
     /**
      * The attributes that are mass assignable.
      *
@@ -25,6 +31,6 @@ class User extends Model
      */
     public function posts()
     {
-        return $this->hasMany('App\Models\Post');
+        return $this->hasMany('App\Models\Post', 'userId');
     }
 }
