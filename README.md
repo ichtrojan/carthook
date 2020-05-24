@@ -37,8 +37,37 @@ cp .env.example .env
 * Run migrations and seeders
 
 ```bash
-php artisan migrate --seed
+php artisan migrate
 ```
+
+>**NOTE**<br/>
+> DO NOT RUN SEEDERS
+
+* Start Queue
+
+```bash
+php artisan queue:work database
+```
+
+* Run the scheduler
+
+```bash
+php artisan schedule:run
+```
+
+The scheduler has to be running in the background. On macOS/Unix you shoud add the following to your `.zshrc` or `.bashrc` file.
+
+```bash
+function scheduler () {
+    while :; do
+        php artisan schedule:run
+    	echo "Sleeping 60 seconds..."
+        sleep 60
+    done
+}
+```
+
+The run the `scheduler` command in terminal. This will run the Laravel Scheduler every 60 seconds.
 
 ## Usage
 
