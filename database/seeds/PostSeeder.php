@@ -26,7 +26,7 @@ class PostSeeder extends Seeder
     {
         return [
             [
-                "user_id" => 1,
+                "userId" => 1,
                 "id" => 1,
                 "title" => "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
                 "body" => "quia et suscipit
@@ -35,7 +35,7 @@ reprehenderit molestiae ut ut quas totam
 nostrum rerum est autem sunt rem eveniet architecto"
             ],
             [
-                "user_id" => 1,
+                "userId" => 1,
                 "id" => 2,
                 "title" => "qui est esse",
                 "body" => "est rerum tempore vitae
@@ -44,7 +44,7 @@ fugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis
 qui aperiam non debitis possimus qui neque nisi nulla"
             ],
             [
-                "user_id" => 1,
+                "userId" => 1,
                 "id" => 3,
                 "title" => "ea molestias quasi exercitationem repellat qui ipsa sit aut",
                 "body" => "et iusto sed quo iure
@@ -53,7 +53,7 @@ voluptatem doloribus vel accusantium quis pariatur
 molestiae porro eius odio et labore et velit aut"
             ],
             [
-                "user_id" => 1,
+                "userId" => 1,
                 "id" => 4,
                 "title" => "eum et est occaecati",
                 "body" => "ullam et saepe reiciendis voluptatem adipisci
@@ -62,7 +62,7 @@ quis hic commodi nesciunt rem tenetur doloremque ipsam iure
 quis sunt voluptatem rerum illo velit"
             ],
             [
-                "user_id" => 1,
+                "userId" => 1,
                 "id" => 5,
                 "title" => "nesciunt quas odio",
                 "body" => "repudiandae veniam quaerat sunt sed
@@ -71,7 +71,7 @@ voluptatem omnis possimus esse voluptatibus quis
 est aut tenetur dolor neque"
             ],
             [
-                "user_id" => 1,
+                "userId" => 1,
                 "id" => 6,
                 "title" => "dolorem eum magni eos aperiam quia",
                 "body" => "ut aspernatur corporis harum nihil quis provident sequi
@@ -80,7 +80,7 @@ perspiciatis et ea nemo ab reprehenderit accusantium quas
 voluptate dolores velit et doloremque molestiae"
             ],
             [
-                "user_id" => 1,
+                "userId" => 1,
                 "id" => 7,
                 "title" => "magnam facilis autem",
                 "body" => "dolore placeat quibusdam ea quo vitae
@@ -89,7 +89,7 @@ quidem repellat excepturi ut quia
 sunt ut sequi eos ea sed quas"
             ],
             [
-                "user_id" => 1,
+                "userId" => 1,
                 "id" => 8,
                 "title" => "dolorem dolore est ipsam",
                 "body" => "dignissimos aperiam dolorem qui eum
@@ -98,7 +98,7 @@ quaerat magni maiores excepturi
 ipsam ut commodi dolor voluptatum modi aut vitae"
             ],
             [
-                "user_id" => 1,
+                "userId" => 1,
                 "id" => 9,
                 "title" => "nesciunt iure omnis dolorem tempora et accusantium",
                 "body" => "consectetur animi nesciunt iure dolore
@@ -107,7 +107,7 @@ veniam autem ut quam aut nobis
 et est aut quod aut provident voluptas autem voluptas"
             ],
             [
-                "user_id" => 1,
+                "userId" => 1,
                 "id" => 10,
                 "title" => "optio molestias id quia eum",
                 "body" => "quo et expedita modi cum officia vel magni
@@ -116,7 +116,7 @@ vero nisi sit
 quos veniam quod sed accusamus veritatis error"
             ],
             [
-                "user_id" => 2,
+                "userId" => 2,
                 "id" => 11,
                 "title" => "et ea vero quia laudantium autem",
                 "body" => "delectus reiciendis molestiae occaecati non minima eveniet qui voluptatibus
@@ -125,7 +125,7 @@ vel qui neque voluptates ut commodi qui incidunt
 ut animi commodi"
             ],
             [
-                "user_id" => 2,
+                "userId" => 2,
                 "id" => 12,
                 "title" => "in quibusdam tempore odit est dolorem",
                 "body" => "itaque id aut magnam
@@ -134,7 +134,7 @@ sapiente quia nihil amet occaecati quia id voluptatem
 incidunt ea est distinctio odio"
             ],
             [
-                "user_id" => 2,
+                "userId" => 2,
                 "id" => 13,
                 "title" => "dolorum ut in voluptas mollitia et saepe quo animi",
                 "body" => "aut dicta possimus sint mollitia voluptas commodi quo doloremque
@@ -143,7 +143,7 @@ sit cumque quod eligendi laborum minima
 perferendis recusandae assumenda consectetur porro architecto ipsum ipsam"
             ],
             [
-                "user_id" => 2,
+                "userId" => 2,
                 "id" => 14,
                 "title" => "voluptatem eligendi optio",
                 "body" => "fuga et accusamus dolorum perferendis illo voluptas
@@ -152,7 +152,7 @@ ad qui dolorum molestiae beatae
 sed aut voluptas totam sit illum"
             ],
             [
-                "user_id" => 2,
+                "userId" => 2,
                 "id" => 15,
                 "title" => "eveniet quod temporibus",
                 "body" => "reprehenderit quos placeat
@@ -161,7 +161,7 @@ voluptas recusandae quis delectus
 officiis harum fugiat vitae"
             ],
             [
-                "user_id" => 2,
+                "userId" => 2,
                 "id" => 16,
                 "title" => "sint suscipit perspiciatis velit dolorum rerum ipsa laboriosam odio",
                 "body" => "suscipit nam nisi quo aperiam aut
@@ -170,7 +170,7 @@ voluptatem quis ullam qui in alias quia est
 consequatur magni mollitia accusamus ea nisi voluptate dicta"
             ],
             [
-                "user_id" => 2,
+                "userId" => 2,
                 "id" => 17,
                 "title" => "fugit voluptas sed molestias voluptatem provident",
                 "body" => "eos voluptas et aut odit natus earum
@@ -179,7 +179,7 @@ deserunt ratione qui eos
 qui nihil ratione nemo velit ut aut id quo"
             ],
             [
-                "user_id" => 2,
+                "userId" => 2,
                 "id" => 18,
                 "title" => "voluptate et itaque vero tempora molestiae",
                 "body" => "eveniet quo quis
@@ -188,7 +188,7 @@ ut et est repudiandae
 est voluptatem vel debitis et magnam"
             ],
             [
-                "user_id" => 2,
+                "userId" => 2,
                 "id" => 19,
                 "title" => "adipisci placeat illum aut reiciendis qui",
                 "body" => "illum quis cupiditate provident sit magnam
@@ -197,7 +197,7 @@ veniam maiores ullam consequatur atque
 adipisci quo iste expedita sit quos voluptas"
             ],
             [
-                "user_id" => 2,
+                "userId" => 2,
                 "id" => 20,
                 "title" => "doloribus ad provident suscipit at",
                 "body" => "qui consequuntur ducimus possimus quisquam amet similique
@@ -206,7 +206,7 @@ eos veritatis officiis exercitationem vel fugit aut necessitatibus totam
 omnis rerum consequatur expedita quidem cumque explicabo"
             ],
             [
-                "user_id" => 3,
+                "userId" => 3,
                 "id" => 21,
                 "title" => "asperiores ea ipsam voluptatibus modi minima quia sint",
                 "body" => "repellat aliquid praesentium dolorem quo
@@ -215,7 +215,7 @@ nihil labore molestiae sunt dolor eveniet hic recusandae veniam
 tempora et tenetur expedita sunt"
             ],
             [
-                "user_id" => 3,
+                "userId" => 3,
                 "id" => 22,
                 "title" => "dolor sint quo a velit explicabo quia nam",
                 "body" => "eos qui et ipsum ipsam suscipit aut
@@ -224,7 +224,7 @@ expedita earum mollitia molestiae aut atque rem suscipit
 nam impedit esse"
             ],
             [
-                "user_id" => 3,
+                "userId" => 3,
                 "id" => 23,
                 "title" => "maxime id vitae nihil numquam",
                 "body" => "veritatis unde neque eligendi
@@ -233,7 +233,7 @@ est illo sit tempora doloremque fugit quod
 et et vel beatae sequi ullam sed tenetur perspiciatis"
             ],
             [
-                "user_id" => 3,
+                "userId" => 3,
                 "id" => 24,
                 "title" => "autem hic labore sunt dolores incidunt",
                 "body" => "enim et ex nulla
@@ -242,7 +242,7 @@ voluptatem consequatur numquam aliquam sunt
 totam recusandae id dignissimos aut sed asperiores deserunt"
             ],
             [
-                "user_id" => 3,
+                "userId" => 3,
                 "id" => 25,
                 "title" => "rem alias distinctio quo quis",
                 "body" => "ullam consequatur ut
@@ -251,7 +251,7 @@ ipsa eligendi ipsum molestiae et omnis error nostrum
 molestiae illo tempore quia et distinctio"
             ],
             [
-                "user_id" => 3,
+                "userId" => 3,
                 "id" => 26,
                 "title" => "est et quae odit qui non",
                 "body" => "similique esse doloribus nihil accusamus
@@ -260,7 +260,7 @@ perspiciatis cum ut laudantium
 omnis aut molestiae vel vero"
             ],
             [
-                "user_id" => 3,
+                "userId" => 3,
                 "id" => 27,
                 "title" => "quasi id et eos tenetur aut quo autem",
                 "body" => "eum sed dolores ipsam sint possimus debitis occaecati
@@ -269,7 +269,7 @@ ut placeat enim earum aut odit facilis
 consequatur suscipit necessitatibus rerum sed inventore temporibus consequatur"
             ],
             [
-                "user_id" => 3,
+                "userId" => 3,
                 "id" => 28,
                 "title" => "delectus ullam et corporis nulla voluptas sequi",
                 "body" => "non et quaerat ex quae ad maiores
@@ -278,7 +278,7 @@ ut voluptatibus voluptatem
 similique nostrum eum"
             ],
             [
-                "user_id" => 3,
+                "userId" => 3,
                 "id" => 29,
                 "title" => "iusto eius quod necessitatibus culpa ea",
                 "body" => "odit magnam ut saepe sed non qui
@@ -287,7 +287,7 @@ accusamus illum doloribus illo dolor
 eligendi repudiandae odit magni similique sed cum maiores"
             ],
             [
-                "user_id" => 3,
+                "userId" => 3,
                 "id" => 30,
                 "title" => "a quo magni similique perferendis",
                 "body" => "alias dolor cumque
@@ -296,7 +296,7 @@ blanditiis amet eius quis tempora quia autem rem
 a provident perspiciatis quia"
             ],
             [
-                "user_id" => 4,
+                "userId" => 4,
                 "id" => 31,
                 "title" => "ullam ut quidem id aut vel consequuntur",
                 "body" => "debitis eius sed quibusdam non quis consectetur vitae
@@ -305,7 +305,7 @@ quidem sit nostrum et maiores adipisci atque
 quaerat voluptatem adipisci repudiandae"
             ],
             [
-                "user_id" => 4,
+                "userId" => 4,
                 "id" => 32,
                 "title" => "doloremque illum aliquid sunt",
                 "body" => "deserunt eos nobis asperiores et hic
@@ -314,7 +314,7 @@ nihil ratione ut eos beatae quibusdam distinctio maiores
 earum voluptates et aut adipisci ea maiores voluptas maxime"
             ],
             [
-                "user_id" => 4,
+                "userId" => 4,
                 "id" => 33,
                 "title" => "qui explicabo molestiae dolorem",
                 "body" => "rerum ut et numquam laborum odit est sit
@@ -323,7 +323,7 @@ quasi tenetur tempore aperiam et quaerat qui in
 rerum officiis sequi cumque quod"
             ],
             [
-                "user_id" => 4,
+                "userId" => 4,
                 "id" => 34,
                 "title" => "magnam ut rerum iure",
                 "body" => "ea velit perferendis earum ut voluptatem voluptate itaque iusto
@@ -332,7 +332,7 @@ nemo voluptatem voluptatem autem magni tempora minima in
 est distinctio qui assumenda accusamus dignissimos officia nesciunt nobis"
             ],
             [
-                "user_id" => 4,
+                "userId" => 4,
                 "id" => 35,
                 "title" => "id nihil consequatur molestias animi provident",
                 "body" => "nisi error delectus possimus ut eligendi vitae
@@ -341,7 +341,7 @@ modi ducimus quo illum voluptas eligendi
 et nobis quia fugit"
             ],
             [
-                "user_id" => 4,
+                "userId" => 4,
                 "id" => 36,
                 "title" => "fuga nam accusamus voluptas reiciendis itaque",
                 "body" => "ad mollitia et omnis minus architecto odit
@@ -350,7 +350,7 @@ blanditiis culpa aut quia nihil cumque facere et occaecati
 qui aspernatur quia eaque ut aperiam inventore"
             ],
             [
-                "user_id" => 4,
+                "userId" => 4,
                 "id" => 37,
                 "title" => "provident vel ut sit ratione est",
                 "body" => "debitis et eaque non officia sed nesciunt pariatur vel
@@ -359,7 +359,7 @@ numquam aut expedita ipsum nulla in
 voluptates omnis consequatur aut enim officiis in quam qui"
             ],
             [
-                "user_id" => 4,
+                "userId" => 4,
                 "id" => 38,
                 "title" => "explicabo et eos deleniti nostrum ab id repellendus",
                 "body" => "animi esse sit aut sit nesciunt assumenda eum voluptas
@@ -368,7 +368,7 @@ rerum repudiandae quia voluptatem delectus fugit aut id quia
 ratione optio eos iusto veniam iure"
             ],
             [
-                "user_id" => 4,
+                "userId" => 4,
                 "id" => 39,
                 "title" => "eos dolorem iste accusantium est eaque quam",
                 "body" => "corporis rerum ducimus vel eum accusantium
@@ -377,7 +377,7 @@ est in deleniti asperiores fuga aut
 voluptas sapiente vel dolore minus voluptatem incidunt ex"
             ],
             [
-                "user_id" => 4,
+                "userId" => 4,
                 "id" => 40,
                 "title" => "enim quo cumque",
                 "body" => "ut voluptatum aliquid illo tenetur nemo sequi quo facilis
@@ -386,7 +386,7 @@ voluptatem eum voluptas qui
 unde omnis voluptatem iure quasi maxime voluptas nam"
             ],
             [
-                "user_id" => 5,
+                "userId" => 5,
                 "id" => 41,
                 "title" => "non est facere",
                 "body" => "molestias id nostrum
@@ -395,7 +395,7 @@ consectetur iste quaerat tenetur asperiores accusamus ex ut
 nam quidem est ducimus sunt debitis saepe"
             ],
             [
-                "user_id" => 5,
+                "userId" => 5,
                 "id" => 42,
                 "title" => "commodi ullam sint et excepturi error explicabo praesentium voluptas",
                 "body" => "odio fugit voluptatum ducimus earum autem est incidunt voluptatem
@@ -404,7 +404,7 @@ non facere repellendus voluptates quia
 ratione harum vitae ut"
             ],
             [
-                "user_id" => 5,
+                "userId" => 5,
                 "id" => 43,
                 "title" => "eligendi iste nostrum consequuntur adipisci praesentium sit beatae perferendis",
                 "body" => "similique fugit est
@@ -413,7 +413,7 @@ exercitationem quos nam commodi possimus cum odio nihil nulla
 dolorum exercitationem magnam ex et a et distinctio debitis"
             ],
             [
-                "user_id" => 5,
+                "userId" => 5,
                 "id" => 44,
                 "title" => "optio dolor molestias sit",
                 "body" => "temporibus est consectetur dolore
@@ -422,7 +422,7 @@ ipsum quibusdam qui itaque fuga rem aut
 ea et iure quam sed maxime ut distinctio quae"
             ],
             [
-                "user_id" => 5,
+                "userId" => 5,
                 "id" => 45,
                 "title" => "ut numquam possimus omnis eius suscipit laudantium iure",
                 "body" => "est natus reiciendis nihil possimus aut provident
@@ -431,7 +431,7 @@ repellat pariatur est
 nobis rerum repellendus dolorem autem"
             ],
             [
-                "user_id" => 5,
+                "userId" => 5,
                 "id" => 46,
                 "title" => "aut quo modi neque nostrum ducimus",
                 "body" => "voluptatem quisquam iste
@@ -440,7 +440,7 @@ quis quas ipsam
 vel et voluptatum in aliquid"
             ],
             [
-                "user_id" => 5,
+                "userId" => 5,
                 "id" => 47,
                 "title" => "quibusdam cumque rem aut deserunt",
                 "body" => "voluptatem assumenda ut qui ut cupiditate aut impedit veniam
@@ -449,7 +449,7 @@ molestiae beatae rerum ea iure soluta nostrum
 eligendi et voluptate"
             ],
             [
-                "user_id" => 5,
+                "userId" => 5,
                 "id" => 48,
                 "title" => "ut voluptatem illum ea doloribus itaque eos",
                 "body" => "voluptates quo voluptatem facilis iure occaecati
@@ -458,7 +458,7 @@ illum perspiciatis ab deleniti
 laudantium repellat ad ut et autem reprehenderit"
             ],
             [
-                "user_id" => 5,
+                "userId" => 5,
                 "id" => 49,
                 "title" => "laborum non sunt aut ut assumenda perspiciatis voluptas",
                 "body" => "inventore ab sint
@@ -467,7 +467,7 @@ eos tenetur in in eum veritatis non
 quibusdam officiis aspernatur cumque aut commodi aut"
             ],
             [
-                "user_id" => 5,
+                "userId" => 5,
                 "id" => 50,
                 "title" => "repellendus qui recusandae incidunt voluptates tenetur qui omnis exercitationem",
                 "body" => "error suscipit maxime adipisci consequuntur recusandae
@@ -476,7 +476,7 @@ quia distinctio ab amet quaerat molestiae et vitae
 adipisci impedit sequi nesciunt quis consectetur"
             ],
             [
-                "user_id" => 6,
+                "userId" => 6,
                 "id" => 51,
                 "title" => "soluta aliquam aperiam consequatur illo quis voluptas",
                 "body" => "sunt dolores aut doloribus
@@ -485,7 +485,7 @@ doloremque et quo
 cum asperiores sit consectetur dolorem"
             ],
             [
-                "user_id" => 6,
+                "userId" => 6,
                 "id" => 52,
                 "title" => "qui enim et consequuntur quia animi quis voluptate quibusdam",
                 "body" => "iusto est quibusdam fuga quas quaerat molestias
@@ -494,7 +494,7 @@ temporibus iusto accusantium provident architecto
 soluta esse reprehenderit qui laborum"
             ],
             [
-                "user_id" => 6,
+                "userId" => 6,
                 "id" => 53,
                 "title" => "ut quo aut ducimus alias",
                 "body" => "minima harum praesentium eum rerum illo dolore
@@ -503,7 +503,7 @@ porro quis neque quo
 consequatur minus dolor quidem veritatis sunt non explicabo similique"
             ],
             [
-                "user_id" => 6,
+                "userId" => 6,
                 "id" => 54,
                 "title" => "sit asperiores ipsam eveniet odio non quia",
                 "body" => "totam corporis dignissimos
@@ -512,7 +512,7 @@ ex velit deserunt
 et exercitationem vero incidunt corrupti mollitia"
             ],
             [
-                "user_id" => 6,
+                "userId" => 6,
                 "id" => 55,
                 "title" => "sit vel voluptatem et non libero",
                 "body" => "debitis excepturi ea perferendis harum libero optio
@@ -521,7 +521,7 @@ et ut incidunt omnis molestiae
 nihil ut eum odit"
             ],
             [
-                "user_id" => 6,
+                "userId" => 6,
                 "id" => 56,
                 "title" => "qui et at rerum necessitatibus",
                 "body" => "aut est omnis dolores
@@ -530,7 +530,7 @@ et provident voluptas corrupti
 corporis harum reprehenderit dolores eligendi"
             ],
             [
-                "user_id" => 6,
+                "userId" => 6,
                 "id" => 57,
                 "title" => "sed ab est est",
                 "body" => "at pariatur consequuntur earum quidem
@@ -539,7 +539,7 @@ qui ullam et est
 et cum voluptas voluptatum repellat est"
             ],
             [
-                "user_id" => 6,
+                "userId" => 6,
                 "id" => 58,
                 "title" => "voluptatum itaque dolores nisi et quasi",
                 "body" => "veniam voluptatum quae adipisci id
@@ -548,7 +548,7 @@ aliquam quo nisi sunt eos impedit error
 ad similique veniam"
             ],
             [
-                "user_id" => 6,
+                "userId" => 6,
                 "id" => 59,
                 "title" => "qui commodi dolor at maiores et quis id accusantium",
                 "body" => "perspiciatis et quam ea autem temporibus non voluptatibus qui
@@ -557,7 +557,7 @@ animi doloribus cum rerum quas et magni
 et hic ut ut commodi expedita sunt"
             ],
             [
-                "user_id" => 6,
+                "userId" => 6,
                 "id" => 60,
                 "title" => "consequatur placeat omnis quisquam quia reprehenderit fugit veritatis facere",
                 "body" => "asperiores sunt ab assumenda cumque modi velit
@@ -566,7 +566,7 @@ voluptate et fuga perferendis voluptas
 illo ratione amet aut et omnis"
             ],
             [
-                "user_id" => 7,
+                "userId" => 7,
                 "id" => 61,
                 "title" => "voluptatem doloribus consectetur est ut ducimus",
                 "body" => "ab nemo optio odio
@@ -575,7 +575,7 @@ vero blanditiis debitis in nesciunt doloribus dicta dolores
 magnam minus velit"
             ],
             [
-                "user_id" => 7,
+                "userId" => 7,
                 "id" => 62,
                 "title" => "beatae enim quia vel",
                 "body" => "enim aspernatur illo distinctio quae praesentium
@@ -584,7 +584,7 @@ odit sint accusantium autem omnis
 quo molestiae omnis ea eveniet optio"
             ],
             [
-                "user_id" => 7,
+                "userId" => 7,
                 "id" => 63,
                 "title" => "voluptas blanditiis repellendus animi ducimus error sapiente et suscipit",
                 "body" => "enim adipisci aspernatur nemo
@@ -593,7 +593,7 @@ ab delectus culpa quo reprehenderit blanditiis asperiores
 accusantium ut quam in voluptatibus voluptas ipsam dicta"
             ],
             [
-                "user_id" => 7,
+                "userId" => 7,
                 "id" => 64,
                 "title" => "et fugit quas eum in in aperiam quod",
                 "body" => "id velit blanditiis
@@ -602,7 +602,7 @@ molestiae sint occaecati est eos perspiciatis
 incidunt a error provident eaque aut aut qui"
             ],
             [
-                "user_id" => 7,
+                "userId" => 7,
                 "id" => 65,
                 "title" => "consequatur id enim sunt et et",
                 "body" => "voluptatibus ex esse
@@ -611,7 +611,7 @@ molestiae corrupti ex saepe at asperiores et perferendis
 natus id esse incidunt pariatur"
             ],
             [
-                "user_id" => 7,
+                "userId" => 7,
                 "id" => 66,
                 "title" => "repudiandae ea animi iusto",
                 "body" => "officia veritatis tenetur vero qui itaque
@@ -620,7 +620,7 @@ sed et ut asperiores iusto eos molestiae nostrum
 veritatis quibusdam et nemo iusto saepe"
             ],
             [
-                "user_id" => 7,
+                "userId" => 7,
                 "id" => 67,
                 "title" => "aliquid eos sed fuga est maxime repellendus",
                 "body" => "reprehenderit id nostrum
@@ -629,7 +629,7 @@ et fugiat amet
 non sapiente et consequatur necessitatibus molestiae"
             ],
             [
-                "user_id" => 7,
+                "userId" => 7,
                 "id" => 68,
                 "title" => "odio quis facere architecto reiciendis optio",
                 "body" => "magnam molestiae perferendis quisquam
@@ -638,7 +638,7 @@ quaerat animi amet hic inventore
 ea quia deleniti quidem saepe porro velit"
             ],
             [
-                "user_id" => 7,
+                "userId" => 7,
                 "id" => 69,
                 "title" => "fugiat quod pariatur odit minima",
                 "body" => "officiis error culpa consequatur modi asperiores et
@@ -647,7 +647,7 @@ voluptatum quisquam perspiciatis quia rerum consequatur totam quas
 sequi commodi repudiandae asperiores et saepe a"
             ],
             [
-                "user_id" => 7,
+                "userId" => 7,
                 "id" => 70,
                 "title" => "voluptatem laborum magni",
                 "body" => "sunt repellendus quae
@@ -656,7 +656,7 @@ quia dolorem unde
 eum tempora esse dolore"
             ],
             [
-                "user_id" => 8,
+                "userId" => 8,
                 "id" => 71,
                 "title" => "et iusto veniam et illum aut fuga",
                 "body" => "occaecati a doloribus
@@ -665,7 +665,7 @@ qui quo quia voluptas
 rerum ut id enim velit est perferendis"
             ],
             [
-                "user_id" => 8,
+                "userId" => 8,
                 "id" => 72,
                 "title" => "sint hic doloribus consequatur eos non id",
                 "body" => "quam occaecati qui deleniti consectetur
@@ -674,7 +674,7 @@ neque id sunt ut aut accusamus
 sunt consectetur expedita inventore velit"
             ],
             [
-                "user_id" => 8,
+                "userId" => 8,
                 "id" => 73,
                 "title" => "consequuntur deleniti eos quia temporibus ab aliquid at",
                 "body" => "voluptatem cumque tenetur consequatur expedita ipsum nemo quia explicabo
@@ -683,7 +683,7 @@ tempore cumque quae est et
 et in consequuntur voluptatem voluptates aut"
             ],
             [
-                "user_id" => 8,
+                "userId" => 8,
                 "id" => 74,
                 "title" => "enim unde ratione doloribus quas enim ut sit sapiente",
                 "body" => "odit qui et et necessitatibus sint veniam
@@ -692,7 +692,7 @@ blanditiis est itaque
 quo et tenetur ratione occaecati molestiae tempora"
             ],
             [
-                "user_id" => 8,
+                "userId" => 8,
                 "id" => 75,
                 "title" => "dignissimos eum dolor ut enim et delectus in",
                 "body" => "commodi non non omnis et voluptas sit
@@ -701,7 +701,7 @@ et laborum repellat qui delectus facilis temporibus
 rerum amet et nemo voluptate expedita adipisci error dolorem"
             ],
             [
-                "user_id" => 8,
+                "userId" => 8,
                 "id" => 76,
                 "title" => "doloremque officiis ad et non perferendis",
                 "body" => "ut animi facere
@@ -710,7 +710,7 @@ molestiae eum aut et dolorem aperiam
 quaerat recusandae totam odio"
             ],
             [
-                "user_id" => 8,
+                "userId" => 8,
                 "id" => 77,
                 "title" => "necessitatibus quasi exercitationem odio",
                 "body" => "modi ut in nulla repudiandae dolorum nostrum eos
@@ -719,7 +719,7 @@ ut incidunt est omnis iste et quam
 voluptates sapiente aliquam asperiores nobis amet corrupti repudiandae provident"
             ],
             [
-                "user_id" => 8,
+                "userId" => 8,
                 "id" => 78,
                 "title" => "quam voluptatibus rerum veritatis",
                 "body" => "nobis facilis odit tempore cupiditate quia
@@ -728,7 +728,7 @@ illum et qui totam
 aut veniam repellendus"
             ],
             [
-                "user_id" => 8,
+                "userId" => 8,
                 "id" => 79,
                 "title" => "pariatur consequatur quia magnam autem omnis non amet",
                 "body" => "libero accusantium et et facere incidunt sit dolorem
@@ -737,7 +737,7 @@ quisquam molestiae ducimus est
 officiis esse molestiae iste et quos"
             ],
             [
-                "user_id" => 8,
+                "userId" => 8,
                 "id" => 80,
                 "title" => "labore in ex et explicabo corporis aut quas",
                 "body" => "ex quod dolorem ea eum iure qui provident amet
@@ -746,7 +746,7 @@ asperiores molestias provident
 minus incidunt vero fugit rerum sint sunt excepturi provident"
             ],
             [
-                "user_id" => 9,
+                "userId" => 9,
                 "id" => 81,
                 "title" => "tempora rem veritatis voluptas quo dolores vero",
                 "body" => "facere qui nesciunt est voluptatum voluptatem nisi
@@ -755,7 +755,7 @@ harum non ratione velit laboriosam quis consequuntur
 ex officiis minima doloremque voluptas ut aut"
             ],
             [
-                "user_id" => 9,
+                "userId" => 9,
                 "id" => 82,
                 "title" => "laudantium voluptate suscipit sunt enim enim",
                 "body" => "ut libero sit aut totam inventore sunt
@@ -764,7 +764,7 @@ consequatur cupiditate qui iste ducimus adipisci
 dolor enim assumenda soluta laboriosam amet iste delectus hic"
             ],
             [
-                "user_id" => 9,
+                "userId" => 9,
                 "id" => 83,
                 "title" => "odit et voluptates doloribus alias odio et",
                 "body" => "est molestiae facilis quis tempora numquam nihil qui
@@ -773,7 +773,7 @@ necessitatibus autem aut ipsa aperiam modi dolore numquam
 reprehenderit eius rem quibusdam"
             ],
             [
-                "user_id" => 9,
+                "userId" => 9,
                 "id" => 84,
                 "title" => "optio ipsam molestias necessitatibus occaecati facilis veritatis dolores aut",
                 "body" => "sint molestiae magni a et quos
@@ -782,7 +782,7 @@ ut rerum debitis similique veniam
 recusandae dignissimos dolor incidunt consequatur odio"
             ],
             [
-                "user_id" => 9,
+                "userId" => 9,
                 "id" => 85,
                 "title" => "dolore veritatis porro provident adipisci blanditiis et sunt",
                 "body" => "similique sed nisi voluptas iusto omnis
@@ -791,7 +791,7 @@ assumenda suscipit officia magnam sint sed tempora
 enim provident pariatur praesentium atque animi amet ratione"
             ],
             [
-                "user_id" => 9,
+                "userId" => 9,
                 "id" => 86,
                 "title" => "placeat quia et porro iste",
                 "body" => "quasi excepturi consequatur iste autem temporibus sed molestiae beatae
@@ -800,7 +800,7 @@ voluptatem occaecati et vel explicabo autem
 asperiores pariatur deserunt optio"
             ],
             [
-                "user_id" => 9,
+                "userId" => 9,
                 "id" => 87,
                 "title" => "nostrum quis quasi placeat",
                 "body" => "eos et molestiae
@@ -809,7 +809,7 @@ dolores perspiciatis repellendus repellat aliquid
 magnam sint rem ipsum est"
             ],
             [
-                "user_id" => 9,
+                "userId" => 9,
                 "id" => 88,
                 "title" => "sapiente omnis fugit eos",
                 "body" => "consequatur omnis est praesentium
@@ -818,7 +818,7 @@ neque hic deserunt
 voluptatibus veniam cum et rerum sed"
             ],
             [
-                "user_id" => 9,
+                "userId" => 9,
                 "id" => 89,
                 "title" => "sint soluta et vel magnam aut ut sed qui",
                 "body" => "repellat aut aperiam totam temporibus autem et
@@ -827,7 +827,7 @@ consequatur qui cupiditate rerum quia soluta dignissimos nihil iure
 tempore quas est"
             ],
             [
-                "user_id" => 9,
+                "userId" => 9,
                 "id" => 90,
                 "title" => "ad iusto omnis odit dolor voluptatibus",
                 "body" => "minus omnis soluta quia
@@ -836,7 +836,7 @@ eligendi officia ut in
 eos soluta similique molestias praesentium blanditiis"
             ],
             [
-                "user_id" => 10,
+                "userId" => 10,
                 "id" => 91,
                 "title" => "aut amet sed",
                 "body" => "libero voluptate eveniet aperiam sed
@@ -845,7 +845,7 @@ similique fugit nam natus
 expedita consequatur consequatur dolores quia eos et placeat"
             ],
             [
-                "user_id" => 10,
+                "userId" => 10,
                 "id" => 92,
                 "title" => "ratione ex tenetur perferendis",
                 "body" => "aut et excepturi dicta laudantium sint rerum nihil
@@ -854,7 +854,7 @@ a neque minima officia et similique libero et
 commodi voluptate qui"
             ],
             [
-                "user_id" => 10,
+                "userId" => 10,
                 "id" => 93,
                 "title" => "beatae soluta recusandae",
                 "body" => "dolorem quibusdam ducimus consequuntur dicta aut quo laboriosam
@@ -863,7 +863,7 @@ nostrum est odit totam
 sit error sed sunt eveniet provident qui nulla"
             ],
             [
-                "user_id" => 10,
+                "userId" => 10,
                 "id" => 94,
                 "title" => "qui qui voluptates illo iste minima",
                 "body" => "aspernatur expedita soluta quo ab ut similique
@@ -872,7 +872,7 @@ sed temporibus distinctio magnam saepe deleniti
 omnis facilis nam ipsum natus sint similique omnis"
             ],
             [
-                "user_id" => 10,
+                "userId" => 10,
                 "id" => 95,
                 "title" => "id minus libero illum nam ad officiis",
                 "body" => "earum voluptatem facere provident blanditiis velit laboriosam
@@ -881,7 +881,7 @@ cumque dolor qui a dicta ab doloribus consequatur omnis
 corporis cupiditate eaque assumenda ad nesciunt"
             ],
             [
-                "user_id" => 10,
+                "userId" => 10,
                 "id" => 96,
                 "title" => "quaerat velit veniam amet cupiditate aut numquam ut sequi",
                 "body" => "in non odio excepturi sint eum
@@ -890,7 +890,7 @@ inventore itaque rerum
 veniam non exercitationem delectus aut"
             ],
             [
-                "user_id" => 10,
+                "userId" => 10,
                 "id" => 97,
                 "title" => "quas fugiat ut perspiciatis vero provident",
                 "body" => "eum non blanditiis soluta porro quibusdam voluptas
@@ -899,7 +899,7 @@ vel inventore aut cumque culpa explicabo aliquid at
 perspiciatis est et voluptatem dignissimos dolor itaque sit nam"
             ],
             [
-                "user_id" => 10,
+                "userId" => 10,
                 "id" => 98,
                 "title" => "laboriosam dolor voluptates",
                 "body" => "doloremque ex facilis sit sint culpa
@@ -908,7 +908,7 @@ sequi ducimus vel quasi
 veritatis est dolores"
             ],
             [
-                "user_id" => 10,
+                "userId" => 10,
                 "id" => 99,
                 "title" => "temporibus sit alias delectus eligendi possimus magni",
                 "body" => "quo deleniti praesentium dicta non quod
@@ -917,7 +917,7 @@ molestias et officia quis nihil
 itaque dolorem quia"
             ],
             [
-                "user_id" => 10,
+                "userId" => 10,
                 "id" => 100,
                 "title" => "at nam consequatur ea labore ea harum",
                 "body" => "cupiditate quo est a modi nesciunt soluta
