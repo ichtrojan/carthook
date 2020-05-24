@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Services\PostService;
-use Illuminate\Http\Request;
+use Illuminate\Http\JsonResponse;
 
 class PostController extends Controller
 {
@@ -12,11 +12,18 @@ class PostController extends Controller
      */
     private $post;
 
+    /**
+     * PostController constructor.
+     */
     public function __construct()
     {
         $this->post = new PostService();
     }
 
+    /**
+     * @param $post
+     * @return JsonResponse
+     */
     public function comments($post)
     {
         return $this->post->comments($post);

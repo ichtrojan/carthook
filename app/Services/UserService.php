@@ -3,6 +3,7 @@
 namespace App\Services;
 
 use App\Models\User;
+use Illuminate\Http\JsonResponse;
 
 class UserService
 {
@@ -11,11 +12,19 @@ class UserService
      */
     private $user;
 
+    /**
+     * UserService constructor.
+     */
     public function __construct()
     {
         $this->user = new User();
     }
 
+    /**
+     * Return all users
+     *
+     * @return JsonResponse
+     */
     public function all()
     {
         return response()->json([
@@ -24,6 +33,12 @@ class UserService
         ]);
     }
 
+    /**
+     * Return a single user
+     *
+     * @param $user
+     * @return JsonResponse
+     */
     public function get($user)
     {
         return response()->json([
@@ -32,6 +47,12 @@ class UserService
         ], 200);
     }
 
+    /**
+     * Get posts belonging to a user
+     *
+     * @param $user
+     * @return JsonResponse
+     */
     public function posts($user)
     {
         $user = $this->user->findOrFail($user);
