@@ -81,6 +81,27 @@ To run tests, execute:
 php artisan test
 ```
 
+## Summary
+
+### API Calls
+
+The API calls to JSONPlaceholder are Scheduled Jobs that run Every 60 Seconds.
+
+### Data Caching
+
+On every successful API call, the data returned are stored in the Database and Cached to file for faster access. Ideally I would have used Redis but choose to skip that to simplify the installation.
+
+### Database Structure
+
+![structure]()
+
+### Initial Call
+
+The first time and endpoint is being called, there is a 2 seconds delay to enable the Scheduled job to process the API call, cache and store tto the database.
+Subsequent calls to the API should be processed withing 80ms on average.
+
+### 
+
 ## Conclusion
 
 Please, Hire me 🙂
