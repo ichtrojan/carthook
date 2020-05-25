@@ -34,4 +34,13 @@ class User extends Model
     {
         return $this->hasMany('App\Models\Post', 'userId');
     }
+
+    protected static function boot()
+    {
+        parent::boot();
+
+        if (static::count() == 0) {
+            sleep(2);
+        }
+    }
 }

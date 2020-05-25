@@ -17,5 +17,5 @@ Route::group(['middleware' => 'api', 'prefix' => 'users'], function () {
     Route::get('/', 'UserController@all');
     Route::get('{user}', 'UserController@get');
     Route::get('{user}/posts', 'UserController@posts');
-    Route::get('{user}/posts/{post}/comments', 'PostController@comments');
+    Route::get('/posts/{post}/comments', 'PostController@comments');
 });

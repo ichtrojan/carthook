@@ -8,7 +8,12 @@ use Tests\TestCase;
 
 class PostTest extends TestCase
 {
-    use DatabaseMigrations, RefreshDatabase;
+    public function setUp(): void
+    {
+        parent::setUp();
+
+        $this->seed();
+    }
 
     /**
      * Get posts by a user
@@ -17,13 +22,11 @@ class PostTest extends TestCase
      */
     public function testGetUserPosts()
     {
-        $this->seed();
-
         $id = mt_rand(1, 10);
 
         $response = $this->get("/api/users/{$id}/posts");
 
-        $response->assertStatus(200)->assertJsonStructure([
+        $response->assertSuccessful()->assertJsonStructure([
             'status',
             'posts'
         ]);
@@ -36,12 +39,10 @@ class PostTest extends TestCase
      */
     public function testGetANonExistentUserPosts()
     {
-        $this->seed();
-
         $id = mt_rand(11, 1000);
 
         $response = $this->get("/api/users/{$id}/posts");
 
-        $response->assertStatus(404);
+        $response->assertNotFound();
     }
 }

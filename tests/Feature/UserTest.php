@@ -8,7 +8,12 @@ use Tests\TestCase;
 
 class UserTest extends TestCase
 {
-    use DatabaseMigrations, RefreshDatabase;
+    public function setUp(): void
+    {
+        parent::setUp();
+
+        $this->seed();
+    }
 
     /**
      * Get all users
@@ -17,11 +22,9 @@ class UserTest extends TestCase
      */
     public function testAllUsers()
     {
-        $this->seed();
-
         $response = $this->get('/api/users');
 
-        $response->assertStatus(200)->assertJsonStructure([
+        $response->assertSuccessful()->assertJsonStructure([
             'status',
             'users'
         ]);
@@ -34,13 +37,11 @@ class UserTest extends TestCase
      */
     public function testGetAUsers()
     {
-        $this->seed();
-
         $id = mt_rand(1, 10);
 
         $response = $this->get("/api/users/{$id}");
 
-        $response->assertStatus(200)->assertJsonStructure([
+        $response->assertSuccessful()->assertJsonStructure([
             'status',
             'user'
         ]);
@@ -53,12 +54,10 @@ class UserTest extends TestCase
      */
     public function testGetANonExistingUser()
     {
-        $this->seed();
-
         $id = mt_rand(11, 100);
 
         $response = $this->get("/api/users/{$id}");
 
-        $response->assertStatus(404);
+        $response->assertNotFound();
     }
 }

@@ -2,31 +2,20 @@
 
 namespace App\Http\Controllers;
 
-use App\Services\PostService;
+use App\Models\Post;
 use Illuminate\Http\JsonResponse;
 
 class PostController extends Controller
 {
     /**
-     * @var PostService
-     */
-    private PostService $post;
-
-    /**
-     * PostController constructor.
-     */
-    public function __construct()
-    {
-        $this->post = new PostService();
-    }
-
-    /**
-     * @param $user
-     * @param $post
+     * @param Post $post
      * @return JsonResponse
      */
-    public function comments($user, $post)
+    public function comments(Post $post)
     {
-        return $this->post->comments($user, $post);
+        return response()->json([
+            'status' => true,
+            'comments' => $post->comments
+        ]);
     }
 }
