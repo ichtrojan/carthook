@@ -23,4 +23,17 @@ class Comment extends Model
     protected $fillable = [
         'postId', 'email', 'name', 'body', 'id'
     ];
+
+    /**
+     * Delay return if no record is present
+     * to give time to make the API call
+     */
+    protected static function boot()
+    {
+        parent::boot();
+
+        if (static::count() == 0) {
+            sleep(2);
+        }
+    }
 }

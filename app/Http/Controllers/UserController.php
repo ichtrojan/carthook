@@ -2,48 +2,43 @@
 
 namespace App\Http\Controllers;
 
-use App\Services\UserService;
+use App\Models\User;
 use Illuminate\Http\JsonResponse;
-use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
-    /**
-     * @var UserService
-     */
-    private UserService $user;
-
-    /**
-     * UserController constructor.
-     */
-    public function __construct()
-    {
-        $this->user = new UserService();
-    }
-
     /**
      * @return JsonResponse
      */
     public function all()
     {
-        return $this->user->all();
+        return response()->json([
+            'status' => true,
+            'users' => User::all(),
+        ]);
     }
 
     /**
      * @param $user
      * @return JsonResponse
      */
-    public function get($user)
+    public function get(User $user)
     {
-        return $this->user->get($user);
+        return response()->json([
+            'status' => true,
+            'user' => $user
+        ]);
     }
 
     /**
      * @param $user
      * @return JsonResponse
      */
-    public function posts($user)
+    public function posts(User $user)
     {
-        return $this->user->posts($user);
+        return response()->json([
+            'status' => true,
+            'posts' => $user->posts
+        ]);
     }
 }
