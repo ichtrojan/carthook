@@ -39,12 +39,10 @@ class FetchComments implements ShouldQueue
         $comments = $this->curl->get("https://jsonplaceholder.typicode.com/comments/");
 
         foreach ($comments as $comment){
-            try {
-                Comment::create($comment);
-            } catch (\Exception $exception) {
-                $comment = Comment::find($comment['id']);
-                $comment->update((array)$comment);
-            }
+            tap($comment['id'], function ($id) use ($comment) {
+                unset($comment['id']);
+                Comment::updateOrCreate(['id' => $id], (array)$comment);
+            });
         }
     }
 }

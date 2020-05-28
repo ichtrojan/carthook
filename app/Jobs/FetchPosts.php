@@ -39,12 +39,10 @@ class FetchPosts implements ShouldQueue
         $posts = $this->curl->get("https://jsonplaceholder.typicode.com/posts/");
 
         foreach ($posts as $post){
-            try {
-                Post::create($post);
-            } catch (\Exception $exception) {
-                $post = Post::find($post['id']);
-                $post->update((array)$post);
-            }
+            tap($post['id'], function ($id) use ($post) {
+                unset($post['id']);
+                Post::updateOrCreate(['id' => $id], (array)$post);
+            });
         }
     }
 }

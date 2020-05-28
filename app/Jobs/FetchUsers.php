@@ -39,12 +39,10 @@ class FetchUsers implements ShouldQueue
         $users = $this->curl->get("https://jsonplaceholder.typicode.com/users/");
 
         foreach ($users as $user){
-            try {
-                User::create($user);
-            } catch (\Exception $exception) {
-                $user = User::find($user['id']);
-                $user->update((array)$user);
-            }
+            tap($user['id'], function ($id) use ($user) {
+                unset($user['id']);
+                User::updateOrCreate(['id' => $id], (array)$user);
+            });
         }
     }
 }
